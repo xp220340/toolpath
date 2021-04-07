@@ -1,0 +1,6 @@
+noether/mesh_segmenter
+/root/toolpath/devel/.private/mesh_segmenter/cmake.lock /root/toolpath/devel/./cmake.lock
+/root/toolpath/devel/.private/mesh_segmenter/share/mesh_segmenter/cmake/mesh_segmenterConfig-version.cmake /root/toolpath/devel/share/mesh_segmenter/cmake/mesh_segmenterConfig-version.cmake
+/root/toolpath/devel/.private/mesh_segmenter/share/mesh_segmenter/cmake/mesh_segmenterConfig.cmake /root/toolpath/devel/share/mesh_segmenter/cmake/mesh_segmenterConfig.cmake
+/root/toolpath/devel/.private/mesh_segmenter/lib/libmesh_segmenter.so /root/toolpath/devel/lib/libmesh_segmenter.so
+/root/toolpath/devel/.private/mesh_segmenter/lib/pkgconfig/mesh_segmenter.pc /root/toolpath/devel/lib/pkgconfig/mesh_segmenter.pc

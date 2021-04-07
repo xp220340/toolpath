@@ -1,0 +1,5 @@
+Toolpath-Offline-Planning/opp_msgs_serialization
+/root/toolpath/devel/.private/opp_msgs_serialization/cmake.lock /root/toolpath/devel/./cmake.lock
+/root/toolpath/devel/.private/opp_msgs_serialization/share/opp_msgs_serialization/cmake/opp_msgs_serializationConfig-version.cmake /root/toolpath/devel/share/opp_msgs_serialization/cmake/opp_msgs_serializationConfig-version.cmake
+/root/toolpath/devel/.private/opp_msgs_serialization/share/opp_msgs_serialization/cmake/opp_msgs_serializationConfig.cmake /root/toolpath/devel/share/opp_msgs_serialization/cmake/opp_msgs_serializationConfig.cmake
+/root/toolpath/devel/.private/opp_msgs_serialization/lib/pkgconfig/opp_msgs_serialization.pc /root/toolpath/devel/lib/pkgconfig/opp_msgs_serialization.pc

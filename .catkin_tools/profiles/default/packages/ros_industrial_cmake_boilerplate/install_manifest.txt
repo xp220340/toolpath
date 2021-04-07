@@ -1,0 +1,9 @@
+/root/toolpath/devel/share/ros_industrial_cmake_boilerplate/package.xml
+/root/toolpath/devel/lib/cmake/ros_industrial_cmake_boilerplate/ros_industrial_cmake_boilerplate-config.cmake
+/root/toolpath/devel/lib/cmake/ros_industrial_cmake_boilerplate/ros_industrial_cmake_boilerplate-config-version.cmake
+/root/toolpath/devel/share/ament_index/resource_index/packages/ros_industrial_cmake_boilerplate
+/root/toolpath/devel/share/ros_industrial_cmake_boilerplate/hook/ament_prefix_path.dsv
+/root/toolpath/devel/share/ros_industrial_cmake_boilerplate/hook/ros_package_path.dsv
+/root/toolpath/devel/lib/cmake/ros_industrial_cmake_boilerplate/cmake_tools.cmake
+/root/toolpath/devel/lib/cmake/ros_industrial_cmake_boilerplate/code_coverage.cmake
+/root/toolpath/devel/lib/cmake/ros_industrial_cmake_boilerplate/extract_package_metadata.cmake

@@ -1,0 +1,9 @@
+/root/toolpath/devel/lib/libvtk_viewer.so
+/root/toolpath/devel/lib/cmake/vtk_viewer/vtk_viewer-targets.cmake
+/root/toolpath/devel/lib/cmake/vtk_viewer/vtk_viewer-targets-debug.cmake
+/root/toolpath/devel/share/vtk_viewer/package.xml
+/root/toolpath/devel/lib/cmake/vtk_viewer/vtk_viewer-config.cmake
+/root/toolpath/devel/lib/cmake/vtk_viewer/vtk_viewer-config-version.cmake
+/root/toolpath/devel/include/vtk_viewer/vtk_viewer.h
+/root/toolpath/devel/include/vtk_viewer/mouse_interactor.h
+/root/toolpath/devel/include/vtk_viewer/vtk_utils.h
