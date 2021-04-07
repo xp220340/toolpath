@@ -1,50 +1,14 @@
-=========================
-CMake Boilerplate Scripts
-=========================
-
-|license apache 2.0|
-
-.. |license apache 2.0| image:: https://img.shields.io/:license-Apache%202.0-yellowgreen.svg
-   :target: https://opensource.org/licenses/Apache-2.0
-
-|license bsd 3 clause|
-
-.. |license bsd 3 clause| image:: https://img.shields.io/:license-BSD%203--Clause-orange.svg
-   :target: https://opensource.org/licenses/BSD-3-Clause
-
-
-This contains a collection of boilerplate CMake scripts and marcos.
-
-Note: this package is *not* specific to ROS-Industrial and is usable with any package which uses CMake. The prefix was added to facilitate releasing this into different ROS distributions.
+====================
+CMake Common Scripts
+====================
+This contains a collection of useful CMake macros.
 
 .. contents:: Table of Contents
    :depth: 3
 
-Create Debian Package (Linux) or NuGet Package (Windows)
-========================================================
-
-The following process will generate a Debian or NuGet package leveraging cmake and cpack based on the OS.
-
-The package should be located in the current directory.
-
-``` bash
-cd <workspace directory>
-catkin build -DRICB_PACKAGE=ON
-./src/ros_industrial_cmake_boilerplate/.run-cpack
-```
 
 Available Macros
 ================
-
-Extract Package Metadata
--------------------------
-
-This CMake macro will extract the package name and version from a package.xml file.
-It will create two cmake variable **${PREFIX_ARG}_extracted_name** and **${PREFIX_ARG}_extracted_version**.
-
-.. code-block:: cmake
-
-   extract_package_metadata(${PREFIX_ARG})
 
 Clang Tidy
 ----------
@@ -72,11 +36,6 @@ This configures clang-tidy with default arguments where any violation will produ
 
    target_clang_tidy(${PACKAGE_NAME} ARGUMENTS ${DEFAULT_CLANG_TIDY_ERROR_ARGS})
 
-This configures clang-tidy to use a .clang-tidy file if no arguments are provided
-
-.. code-block:: cmake
-
-   target_clang_tidy(${PACKAGE_NAME})
 
 .. note::
 
@@ -180,15 +139,6 @@ Set the version to 14 and PUBLIC.
 
    target_cxx_version(${PACKAGE_NAME} PUBLIC VERSION 14)
 
-Find GTest (Pure CMake Package)
----------------------------------------------
-This CMake macro calls ``find_package(GTest REQUIRED)`` and checks for the ``GTest::GTest`` and ``GTest::Main`` targets. If the targets are missing it will create the targets using the CMake variables.
-
-.. code-block:: cmake
-
-   find_gtest()
-
-
 Add Run Tests Target (Pure CMake Package)
 -----------------------------------------
 This CMake macro adds a custom target that will run the tests after they are finished building. You may pass an optional
@@ -243,8 +193,6 @@ Add empty run benchmark target
 Code Coverage
 -------------
 These CMake macros add code coverage.
-
-.. note:: Must call **initialize_code_coverage()** after project() in the CMakeLists.txt. This is required for all examples below.
 
 From this point, there are two primary methods for adding instrumentation to targets:
 1. A blanket instrumentation by calling `add_code_coverage()`, where all targets in that directory and all subdirectories are automatically instrumented.
