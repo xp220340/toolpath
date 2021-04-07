@@ -17,7 +17,7 @@
    <item>
     <widget class="QLabel" name="label_tool_path_generation">
      <property name="text">
-      <string>Tool Path Generation</string>
+      <string>路径生成</string>
      </property>
     </widget>
    </item>
@@ -26,24 +26,31 @@
      <item row="0" column="0">
       <widget class="QLabel" name="label_process_type">
        <property name="text">
-        <string>Process Type</string>
+        <string>处理类型</string>
        </property>
       </widget>
      </item>
      <item row="0" column="1">
       <widget class="QComboBox" name="combo_box_process_type"/>
      </item>
-     <item row="1" column="0">
-      <widget class="QLabel" name="label_dwell_time">
-       <property name="text">
-        <string>Dwell Time (min)</string>
-       </property>
-      </widget>
-     </item>
      <item row="1" column="1">
       <widget class="QSpinBox" name="spin_box_dwell_time"/>
      </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_dwell_time">
+       <property name="text">
+        <string>时间 (min)</string>
+       </property>
+      </widget>
+     </item>
     </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="push_button_generate">
+     <property name="text">
+      <string>生成</string>
+     </property>
+    </widget>
    </item>
    <item>
     <layout class="QFormLayout" name="form_layout_tpp_parameters">
@@ -53,7 +60,7 @@
         <string extracomment="Spacing between adjacent toolpath segments (in meters)"/>
        </property>
        <property name="text">
-        <string>Line Spacing (m)</string>
+        <string>线距 (m)</string>
        </property>
       </widget>
      </item>
@@ -76,7 +83,7 @@
         <string extracomment="Spacing between adjacent waypoints on a segment (in meters)"/>
        </property>
        <property name="text">
-        <string>Point Spacing (m)</string>
+        <string>点距 (m)</string>
        </property>
       </widget>
      </item>
@@ -99,7 +106,7 @@
         <string extracomment="Tool offset along the z-axis from each waypoint (in meters)"/>
        </property>
        <property name="text">
-        <string>Tool Z-axis Offset (m)</string>
+        <string>z轴偏移 (m)</string>
        </property>
       </widget>
      </item>
@@ -119,7 +126,7 @@
         <string extracomment="The minimum surface hole size for which the tool path planner will break a segment (in meters)"/>
        </property>
        <property name="text">
-        <string>Min. Hole Size (m)</string>
+        <string>最小洞大小 (m)</string>
        </property>
       </widget>
      </item>
@@ -142,7 +149,7 @@
         <string extracomment="Minimum length of a toolpath segment (in meters)"/>
        </property>
        <property name="text">
-        <string>Min. Segment Length (m)</string>
+        <string>最小分段长度 (m)</string>
        </property>
       </widget>
      </item>
@@ -162,7 +169,7 @@
      <item row="6" column="0">
       <widget class="QLabel" name="label_intersecting_plane_height">
        <property name="text">
-        <string>Intersecting Plane Height (m)</string>
+        <string>横切面高度 (m)</string>
        </property>
       </widget>
      </item>
@@ -179,7 +186,7 @@
      <item row="7" column="0">
       <widget class="QLabel" name="label_raster_angle">
        <property name="text">
-        <string>Raster Angle (deg)</string>
+        <string>光栅度数(deg)</string>
        </property>
       </widget>
      </item>
@@ -199,7 +206,7 @@
      <item row="3" column="0">
       <widget class="QLabel" name="label_tool_pitch">
        <property name="text">
-        <string>Tool Pitch (degrees)</string>
+        <string>工具高点 (degrees)</string>
        </property>
       </widget>
      </item>
@@ -217,13 +224,6 @@
       </widget>
      </item>
     </layout>
-   </item>
-   <item>
-    <widget class="QPushButton" name="push_button_generate">
-     <property name="text">
-      <string>Generate</string>
-     </property>
-    </widget>
    </item>
    <item>
     <spacer name="verticalSpacer">

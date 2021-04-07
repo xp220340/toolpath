@@ -17,7 +17,7 @@
    <item>
     <widget class="QLabel" name="label_area_selection">
      <property name="text">
-      <string>Area Selection
+      <string>区域选择
 (Use Publish Point tool, selection is automatically applied)</string>
      </property>
     </widget>
@@ -25,21 +25,21 @@
    <item>
     <widget class="QPushButton" name="push_button_clear_selection">
      <property name="text">
-      <string>Clear Selection</string>
+      <string>清除选择</string>
      </property>
     </widget>
    </item>
    <item>
     <widget class="QPushButton" name="push_button_apply_selection">
      <property name="text">
-      <string>Apply Selection</string>
+      <string>应用选择</string>
      </property>
     </widget>
    </item>
    <item>
     <widget class="QCheckBox" name="cbox_update_selections">
      <property name="text">
-      <string>Update Selections</string>
+      <string>更新选择</string>
      </property>
     </widget>
    </item>

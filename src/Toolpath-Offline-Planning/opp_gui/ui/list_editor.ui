@@ -17,7 +17,7 @@
    <item>
     <widget class="QGroupBox" name="group_box_list_widget">
      <property name="title">
-      <string>List</string>
+      <string>列表</string>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_3">
       <item>
@@ -25,14 +25,14 @@
         <item>
          <widget class="QPushButton" name="push_button_add">
           <property name="text">
-           <string>Add</string>
+           <string>增加</string>
           </property>
          </widget>
         </item>
         <item>
          <widget class="QPushButton" name="push_button_remove">
           <property name="text">
-           <string>Remove</string>
+           <string>移除</string>
           </property>
          </widget>
         </item>
@@ -56,7 +56,7 @@
      <item>
       <widget class="QGroupBox" name="group_box_parameters">
        <property name="title">
-        <string>Parameters</string>
+        <string>参数</string>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout">
         <item>

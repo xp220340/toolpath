@@ -23,7 +23,7 @@
    <item>
     <widget class="QLabel" name="label_segmentation">
      <property name="text">
-      <string>Segmentation</string>
+      <string>分段</string>
      </property>
     </widget>
    </item>
@@ -35,7 +35,7 @@
         <string extracomment="Spacing between adjacent toolpath segments (in meters)"/>
        </property>
        <property name="text">
-        <string>Min Cluster Size (triangles)</string>
+        <string>最小群集 (triangles)</string>
        </property>
       </widget>
      </item>
@@ -45,7 +45,7 @@
         <string extracomment="Spacing between adjacent waypoints on a segment (in meters)"/>
        </property>
        <property name="text">
-        <string>Curvature Threshold (rad)</string>
+        <string>弯曲阀值 (rad)</string>
        </property>
       </widget>
      </item>
@@ -86,7 +86,7 @@
    <item>
     <widget class="QPushButton" name="push_button_segment">
      <property name="text">
-      <string>Segment</string>
+      <string>分段</string>
      </property>
     </widget>
    </item>

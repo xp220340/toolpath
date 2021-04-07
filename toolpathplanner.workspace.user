@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.9.2, 2021-04-02T01:34:50. -->
+<!-- Written by QtCreator 4.9.2, 2021-04-07T02:57:48. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -112,7 +112,7 @@
     <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
     <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges">
      <value type="QString">PWD=/root/toolpath</value>
-     <value type="QString">SHLVL=12</value>
+     <value type="QString">SHLVL=14</value>
      <value type="QString">_=/usr/bin/env</value>
     </valuelist>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Debug</value>
