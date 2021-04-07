@@ -17,7 +17,7 @@
    <item>
     <widget class="QLabel" name="label">
      <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;SwRI Part &amp;amp; Tool Path Planner&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;&gt;路径规划&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
      <property name="wordWrap">
       <bool>false</bool>
@@ -38,15 +38,13 @@
      </property>
      <widget class="QWidget" name="tab_add_part">
       <attribute name="title">
-       <string>Edit Parts</string>
+       <string>部件</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_15">
        <item>
         <widget class="QLabel" name="label_description">
          <property name="text">
-          <string>
-Use the GUI to define the properties of a new part or modify those of an existing part
-</string>
+          <string>根据新的部件生成路径</string>
          </property>
          <property name="wordWrap">
           <bool>true</bool>
@@ -64,17 +62,17 @@ Use the GUI to define the properties of a new part or modify those of an existin
             <x>0</x>
             <y>0</y>
             <width>714</width>
-            <height>848</height>
+            <height>873</height>
            </rect>
           </property>
           <attribute name="label">
-           <string>1. Load Part Model</string>
+           <string>1. 加载部件</string>
           </attribute>
           <layout class="QVBoxLayout" name="verticalLayout_16">
            <item>
             <widget class="QGroupBox" name="group_box_new_part">
              <property name="title">
-              <string>New Part</string>
+              <string>模型文件</string>
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_3">
               <item>
@@ -82,7 +80,7 @@ Use the GUI to define the properties of a new part or modify those of an existin
                 <item row="0" column="0">
                  <widget class="QPushButton" name="push_button_find_model_file">
                   <property name="text">
-                   <string>Load New Model File</string>
+                   <string>加载模型文件</string>
                   </property>
                  </widget>
                 </item>
@@ -108,7 +106,7 @@ Use the GUI to define the properties of a new part or modify those of an existin
            <item>
             <widget class="QGroupBox" name="group_box_existing_part">
              <property name="title">
-              <string>Existing Part</string>
+              <string>已有模型</string>
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_10">
               <item>
@@ -135,14 +133,14 @@ Use the GUI to define the properties of a new part or modify those of an existin
               <item>
                <widget class="QPushButton" name="push_button_load_selected_part">
                 <property name="text">
-                 <string>Load Selected Part</string>
+                 <string>加载模型</string>
                 </property>
                </widget>
               </item>
               <item>
                <widget class="QPushButton" name="push_button_load_parts_from_database">
                 <property name="text">
-                 <string>Refresh Parts List</string>
+                 <string>刷新列表</string>
                 </property>
                </widget>
               </item>
@@ -170,11 +168,11 @@ Use the GUI to define the properties of a new part or modify those of an existin
             <x>0</x>
             <y>0</y>
             <width>714</width>
-            <height>848</height>
+            <height>873</height>
            </rect>
           </property>
           <attribute name="label">
-           <string>2. Define Model Data</string>
+           <string>2. 定义模型数据</string>
           </attribute>
           <layout class="QVBoxLayout" name="verticalLayout_6">
            <item>
@@ -184,7 +182,7 @@ Use the GUI to define the properties of a new part or modify those of an existin
              </property>
              <widget class="QWidget" name="tab_touch_points">
               <attribute name="title">
-               <string>Touch Points</string>
+               <string>触点</string>
               </attribute>
               <layout class="QVBoxLayout" name="verticalLayout_8">
                <item>
@@ -201,7 +199,7 @@ Use the GUI to define the properties of a new part or modify those of an existin
              </widget>
              <widget class="QWidget" name="tab_verification_points">
               <attribute name="title">
-               <string>Verification Points</string>
+               <string>验证点</string>
               </attribute>
               <layout class="QVBoxLayout" name="verticalLayout_7">
                <item>
@@ -226,11 +224,11 @@ Use the GUI to define the properties of a new part or modify those of an existin
             <x>0</x>
             <y>0</y>
             <width>714</width>
-            <height>848</height>
+            <height>873</height>
            </rect>
           </property>
           <attribute name="label">
-           <string>3. Save Model Data</string>
+           <string>3. 保存模型数据</string>
           </attribute>
           <layout class="QVBoxLayout" name="verticalLayout_17">
            <item>
@@ -238,7 +236,7 @@ Use the GUI to define the properties of a new part or modify those of an existin
              <item row="0" column="0">
               <widget class="QLabel" name="label_model_name">
                <property name="text">
-                <string>Name</string>
+                <string>名字</string>
                </property>
               </widget>
              </item>
@@ -248,7 +246,7 @@ Use the GUI to define the properties of a new part or modify those of an existin
              <item row="1" column="0">
               <widget class="QLabel" name="label_model_description">
                <property name="text">
-                <string>Description</string>
+                <string>描述</string>
                </property>
               </widget>
              </item>
@@ -260,7 +258,7 @@ Use the GUI to define the properties of a new part or modify those of an existin
            <item>
             <widget class="QPushButton" name="push_button_save_entry">
              <property name="text">
-              <string>Save</string>
+              <string>保存</string>
              </property>
             </widget>
            </item>
@@ -285,7 +283,7 @@ Use the GUI to define the properties of a new part or modify those of an existin
      </widget>
      <widget class="QWidget" name="tab_add_job">
       <attribute name="title">
-       <string>Edit Jobs</string>
+       <string>任务</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout">
        <item>
@@ -299,23 +297,23 @@ Use the GUI to define the properties of a new part or modify those of an existin
             <x>0</x>
             <y>0</y>
             <width>714</width>
-            <height>905</height>
+            <height>896</height>
            </rect>
           </property>
           <attribute name="label">
-           <string>1. Load Job Data</string>
+           <string>1. 任务数据</string>
           </attribute>
           <layout class="QVBoxLayout" name="verticalLayout_4">
            <item>
             <widget class="QGroupBox" name="group_box_new_job">
              <property name="title">
-              <string>New Job</string>
+              <string>新任务</string>
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_12">
               <item>
                <widget class="QPushButton" name="push_button_new_job">
                 <property name="text">
-                 <string>Generate New Job</string>
+                 <string>生成任务</string>
                 </property>
                </widget>
               </item>
@@ -332,7 +330,7 @@ Use the GUI to define the properties of a new part or modify those of an existin
            <item>
             <widget class="QGroupBox" name="group_box_load_previous_job">
              <property name="title">
-              <string>Load Previous Job</string>
+              <string>已有任务</string>
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_13">
               <item>
@@ -355,14 +353,14 @@ Use the GUI to define the properties of a new part or modify those of an existin
               <item>
                <widget class="QPushButton" name="push_button_load_selected_job">
                 <property name="text">
-                 <string>Load Selected Job</string>
+                 <string>加载任务</string>
                 </property>
                </widget>
               </item>
               <item>
                <widget class="QPushButton" name="push_button_load_jobs_from_database">
                 <property name="text">
-                 <string>Refresh Job Lists</string>
+                 <string>刷新列表</string>
                 </property>
                </widget>
               </item>
@@ -389,12 +387,12 @@ Use the GUI to define the properties of a new part or modify those of an existin
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>100</width>
-            <height>30</height>
+            <width>98</width>
+            <height>28</height>
            </rect>
           </property>
           <attribute name="label">
-           <string>2. Define Job Data</string>
+           <string>2. 定义任务 </string>
           </attribute>
           <layout class="QVBoxLayout" name="verticalLayout_11">
            <item>
@@ -414,12 +412,12 @@ Use the GUI to define the properties of a new part or modify those of an existin
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>175</width>
-            <height>158</height>
+            <width>132</width>
+            <height>156</height>
            </rect>
           </property>
           <attribute name="label">
-           <string>3. Save Job Data</string>
+           <string>3. 保存任务</string>
           </attribute>
           <layout class="QVBoxLayout" name="verticalLayout_18">
            <item>
@@ -427,7 +425,7 @@ Use the GUI to define the properties of a new part or modify those of an existin
              <item row="0" column="0">
               <widget class="QLabel" name="label_job_name">
                <property name="text">
-                <string>Job Name</string>
+                <string>任务名</string>
                </property>
               </widget>
              </item>
@@ -437,7 +435,7 @@ Use the GUI to define the properties of a new part or modify those of an existin
              <item row="1" column="0">
               <widget class="QLabel" name="label_job_description">
                <property name="text">
-                <string>Description</string>
+                <string>描述</string>
                </property>
               </widget>
              </item>
@@ -449,7 +447,7 @@ Use the GUI to define the properties of a new part or modify those of an existin
            <item>
             <widget class="QPushButton" name="push_button_save_job">
              <property name="text">
-              <string>Save</string>
+              <string>保存</string>
              </property>
             </widget>
            </item>
@@ -474,13 +472,13 @@ Use the GUI to define the properties of a new part or modify those of an existin
      </widget>
      <widget class="QWidget" name="tab_manage_database">
       <attribute name="title">
-       <string>Manage Database</string>
+       <string>数据库</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_14">
        <item>
         <widget class="QGroupBox" name="group_box_manage_parts">
          <property name="title">
-          <string>Manage Parts</string>
+          <string>部件管理</string>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_2">
           <item>
@@ -491,21 +489,21 @@ Use the GUI to define the properties of a new part or modify those of an existin
             <item>
              <widget class="QPushButton" name="push_button_refresh_parts">
               <property name="text">
-               <string>Refresh</string>
+               <string>刷新</string>
               </property>
              </widget>
             </item>
             <item>
              <widget class="QPushButton" name="push_button_show_part">
               <property name="text">
-               <string>Show</string>
+               <string>展示</string>
               </property>
              </widget>
             </item>
             <item>
              <widget class="QPushButton" name="push_button_suppress_part">
               <property name="text">
-               <string>Delete</string>
+               <string>删除</string>
               </property>
              </widget>
             </item>
@@ -517,7 +515,7 @@ Use the GUI to define the properties of a new part or modify those of an existin
        <item>
         <widget class="QGroupBox" name="group_box_manage_jobs">
          <property name="title">
-          <string>Manage Jobs</string>
+          <string>任务管理</string>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_5">
           <item>
@@ -528,14 +526,14 @@ Use the GUI to define the properties of a new part or modify those of an existin
             <item>
              <widget class="QPushButton" name="push_button_refresh_jobs">
               <property name="text">
-               <string>Refresh</string>
+               <string>刷新</string>
               </property>
              </widget>
             </item>
             <item>
              <widget class="QPushButton" name="push_button_suppress_job">
               <property name="text">
-               <string>Delete</string>
+               <string>删除</string>
               </property>
              </widget>
             </item>

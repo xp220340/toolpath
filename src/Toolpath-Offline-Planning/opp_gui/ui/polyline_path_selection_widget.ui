@@ -17,8 +17,7 @@
    <item>
     <widget class="QLabel" name="label_polyline_selection">
      <property name="text">
-      <string>折线选择
-(Use Publish Point tool, selection is automatically applied)</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;折线选择(使用 Publish Point tool工具)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
    </item>

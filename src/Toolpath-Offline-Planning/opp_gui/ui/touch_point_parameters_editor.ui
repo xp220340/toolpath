@@ -17,13 +17,13 @@
    <item>
     <widget class="QGroupBox" name="group_box_threshold">
      <property name="title">
-      <string>Measurement Threshold</string>
+      <string>阀值设置</string>
      </property>
      <layout class="QFormLayout" name="formLayout_3">
       <item row="0" column="0">
        <widget class="QLabel" name="label_threshold">
         <property name="text">
-         <string>threshold (m)</string>
+         <string>阀值 (m)</string>
         </property>
        </widget>
       </item>
@@ -43,8 +43,7 @@
       <item row="1" column="0" colspan="2">
        <widget class="QLabel" name="label_threshold_note">
         <property name="text">
-         <string>(This value is ignored for touchoff
-points, but used for verification.)</string>
+         <string>touchoff points 可以忽略此值，可用于校验</string>
         </property>
        </widget>
       </item>
@@ -54,14 +53,14 @@ points, but used for verification.)</string>
    <item>
     <widget class="QPushButton" name="push_button_select_with_mouse">
      <property name="text">
-      <string>Select with Mouse</string>
+      <string>用鼠标选择</string>
      </property>
     </widget>
    </item>
    <item>
     <widget class="QLabel" name="label_display">
      <property name="text">
-      <string>Description</string>
+      <string>描述</string>
      </property>
     </widget>
    </item>
@@ -71,14 +70,14 @@ points, but used for verification.)</string>
    <item>
     <widget class="QPushButton" name="push_button_update">
      <property name="text">
-      <string>Update</string>
+      <string>更新</string>
      </property>
     </widget>
    </item>
    <item>
     <widget class="QGroupBox" name="group_box_position">
      <property name="title">
-      <string>Position</string>
+      <string>位置</string>
      </property>
      <layout class="QFormLayout" name="formLayout_2">
       <item row="0" column="0">
@@ -147,7 +146,7 @@ points, but used for verification.)</string>
    <item>
     <widget class="QGroupBox" name="group_box_orientation">
      <property name="title">
-      <string>Orientation</string>
+      <string>方向</string>
      </property>
      <layout class="QFormLayout" name="formLayout">
       <item row="0" column="0">
