@@ -44,7 +44,7 @@
        <item>
         <widget class="QLabel" name="label_description">
          <property name="text">
-          <string>根据新的部件生成路径</string>
+          <string>根据新的部件生成路径.</string>
          </property>
          <property name="wordWrap">
           <bool>true</bool>
